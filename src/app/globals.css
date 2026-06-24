@@ -3,25 +3,55 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #0a1628;
+  --surface: #111d33;
+  --surface-hover: #162640;
+  --foreground: #f0f4f8;
+  --muted: #8899aa;
+  --accent: #00d084;
+  --accent-dim: #00a868;
+  --gold: #f5c842;
+  --border: #1e3050;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+.bracket-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 208, 132, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(0, 100, 200, 0.12), transparent),
+    var(--background);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Custom scrollbar for bracket */
+.bracket-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+.bracket-scroll::-webkit-scrollbar-track {
+  background: var(--surface);
+  border-radius: 3px;
+}
+.bracket-scroll::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+.bracket-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-dim);
+}
+
+/* Flowchart bracket wave accent */
+.bracket-flowchart-bg {
+  background:
+    linear-gradient(90deg, rgba(0, 80, 160, 0.06) 0%, transparent 20%, transparent 80%, rgba(0, 80, 160, 0.06) 100%),
+    var(--surface);
 }

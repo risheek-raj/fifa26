@@ -10,7 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         background: "var(--background)",
+        surface: "var(--surface)",
+        "surface-hover": "var(--surface-hover)",
         foreground: "var(--foreground)",
+        muted: "var(--muted)",
+        accent: "var(--accent)",
+        "accent-dim": "var(--accent-dim)",
+        gold: "var(--gold)",
+        border: "var(--border)",
+      },
+      fontFamily: {
+        display: ["var(--font-syne)", "system-ui", "sans-serif"],
+        body: ["var(--font-instrument)", "system-ui", "sans-serif"],
       },
     },
   },
