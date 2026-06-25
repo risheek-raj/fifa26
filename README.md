@@ -2,7 +2,7 @@
 
 Interactive web app for the **2026 FIFA World Cup** (Canada · Mexico · USA). Live group standings, a full knockout bracket with Annex C third-place resolution, Poisson match predictions, and ESPN-powered score updates.
 
-**Repository:** [github.com/risheekraj414/fifa26](https://github.com/risheekraj414/fifa26)  
+**Repository:** [github.com/risheek-raj/fifa26](https://github.com/risheek-raj/fifa26)  
 **Branch:** `develop`
 
 ---
@@ -41,7 +41,7 @@ Interactive web app for the **2026 FIFA World Cup** (Canada · Mexico · USA). L
 ### Install & run
 
 ```bash
-git clone https://github.com/risheekraj414/fifa26.git
+git clone https://github.com/risheek-raj/fifa26.git
 cd fifa26
 git checkout develop
 npm install

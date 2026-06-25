@@ -46,7 +46,7 @@ The FIFA 26 Knockout Predictor is an interactive web application that:
 
 | Item | Value |
 |------|-------|
-| GitHub | [github.com/risheekraj414/fifa26](https://github.com/risheekraj414/fifa26) |
+| GitHub | [github.com/risheek-raj/fifa26](https://github.com/risheek-raj/fifa26) |
 | Primary branch | `develop` |
 | Runtime | Node.js 20+, Next.js 14.2 |
 | Language | TypeScript |
